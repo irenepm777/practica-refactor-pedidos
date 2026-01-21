@@ -20,6 +20,6 @@ public class ProcesadorPedidosTest {
 
         double resultado = proc.procesar(nombres, precios);
 
-        assertEquals(RESULTADO_ESPERADO, resultado, DELTA);
+        assertEquals(67.67, resultado, DELTA);
     }
 }
